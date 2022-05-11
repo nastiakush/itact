@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Главная | Блог</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/404.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/gal.css">
+    </head>
+    <body>
+        <div class="footer-bottom">
+            <header class="header">
+                <div class="container header__container">
+                    <a class="logo header__logo">
+                        <img src="img/logo.svg" alt="Логотип блога">
+                    </a>
+                    <div class="header__right">
+                        <nav class="nav header__nav">
+                            <ul class="nav__list list-reset">
+                                <li class="nav__item"><a class="nav__link nav__link--current">Главная</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Поиск</a></li>
+                            </ul>
+                        </nav>
+                        <a href="tel:+79165546188" class="phone">+7 (916) 554-61-88</a>
+                    </div>
+                </div>
+            </header>
+            <div class="slider">
+    <div class="item">
+        <img src="img2/code.jpg">
+    </div>
+    <div class="item">
+        <img src="img2/code2.jpg">
+    </div>
+    <div class="item">
+        <img src="img2/code3.jpg">
+    </div>
+    <div class="item">
+        <img src="img2/code4.jpg">
+    </div>
+    <div class="item">
+        <img src="img2/code5.jpg">
+    </div>
+    <div class="item">
+        <img src="img2/code6.jpg">
+    </div>
+
+    <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+
+<div class="slider-dots">
+    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+</div>
+    
+<script src="script.js"></script>
+
+            <footer class="footer">
+                <div class="container footer__container">
+                    <a class="logo footer__logo">
+                        <img src="img/logo.svg" alt="Логотип блога">
+                    </a>
+                    <nav class="nav footer__nav">
+                        <ul class="nav__list list-reset">
+                            <li class="nav__item"><a class="nav__link nav__link--current">Главная</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Поиск</a></li>
+                        </ul>
+                    </nav>
+                    <small class="footer__copy">ООО “Организация” 2020. Все права защищены</small>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
